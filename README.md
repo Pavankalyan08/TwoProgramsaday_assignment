@@ -40,10 +40,10 @@ three sides of the triangle are not equal to each other.
 	<br> int input();
 	<br> int gcd(int a, int b);
 	<br> void output(int a, int b, int gcd);
-input:
-12 16
-output
-4
+	input:
+	12 16
+	output
+	4
 	
 <br> 6.	Write a program to reverse a string.
 	<br> void input_string(char *a);
@@ -181,6 +181,7 @@ output
 	<br> void input_n_lines(int n, Line l[n]);
 	<br> void find_perimeter(Polygon \*p);
 	<br> void output(Polygon p);
+	
 <br> 17.	Write a program to Compare two strings --> IA1-TEST1
 	<br> void input_two_string(char *a, char *b);
 	<br> int strcmp(char *a, char *b);
@@ -190,6 +191,7 @@ output
 	<br> world
 	<br> output:
 	<br> world is greater than hello
+	
 <br> 18. Write a program to find Sum of n complex numb<br> ers    --> IA-TEST 3
 	<br> struct _co<br> mplex
 	<br> {
@@ -210,6 +212,7 @@ output
 	<br> + 4 + 5i is 
 	<br> 6 + 8i
 	
+	
 	<br> 19. Write program to add n fractions
 	<br> struct _fraction 
 	<br> {
@@ -222,6 +225,8 @@ output
 	<br> Fraction add_fractions(Fraction f1, Fraction f2);
 	<br> Fraction add_n_fractions(int n,Fraction f[n]);
 	<br> void output(int n, Fraction f[n], Fraction sum);
+	
+	
 <br> 20. Write a program to evaluate a polynomial at a given point using horners method. --> IA-TEST 3
 	<br> int input_degree();
 	<br> float input_x();
@@ -231,4 +236,5 @@ output
 	<br> input:
 	<br> 1 1 1
 	<br> output:
+	
 	<br> 1+1\*x + 1\*x^2 at 1.000000 is 1.000000
