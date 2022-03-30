@@ -159,7 +159,7 @@ output
 	<br> void find_length(Line \*l);
 	<br> void output(Line l);
 	
-<br> 16. Write a program to find the permeter of a polygon
+<br> 16. Write a program to find the permeter of a polygon   --> IA1-TEST1
 	<br> struct _point {
 	<br>	float x,y;
 	<br> };
@@ -181,7 +181,7 @@ output
 	<br> void input_n_lines(int n, Line l[n]);
 	<br> void find_perimeter(Polygon \*p);
 	<br> void output(Polygon p);
-<br> 17.	Write a program to Compare two strings
+<br> 17.	Write a program to Compare two strings --> IA1-TEST1
 	<br> void input_two_string(char *a, char *b);
 	<br> int strcmp(char *a, char *b);
 	<br> void output(char *a, char *b, int result);
@@ -190,7 +190,7 @@ output
 	<br> world
 	<br> output:
 	<br> world is greater than hello
-<br> 18. Write a program to find Sum of n complex numb<br> ers
+<br> 18. Write a program to find Sum of n complex numb<br> ers    --> IA-TEST 3
 	<br> struct _co<br> mplex
 	<br> {
 		<br> float real,imaginary;
@@ -222,7 +222,7 @@ output
 	<br> Fraction add_fractions(Fraction f1, Fraction f2);
 	<br> Fraction add_n_fractions(int n,Fraction f[n]);
 	<br> void output(int n, Fraction f[n], Fraction sum);
-<br> 20. Write a program to evaluate a polynomial at a given point using horners method.
+<br> 20. Write a program to evaluate a polynomial at a given point using horners method. --> IA-TEST 3
 	<br> int input_degree();
 	<br> float input_x();
 	<br> void input_coefficients(int n, float a[n]);
